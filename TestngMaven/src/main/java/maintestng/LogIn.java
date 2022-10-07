@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LogIn {
 
-	
+	// edit to pull
 	@FindBy (xpath = "//a[text()='Sign in']")
 	private WebElement signInButton;
 	
