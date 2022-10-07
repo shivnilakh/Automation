@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="chrometest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testtestng.ParameterEX">
+        <methods>
+          <include name="verifyURL"/>
+          <include name="openBrowser"/>
+          <include name="createPOMObject"/>
+          <include name="openHomePage"/>
+        </methods>
+      </class> <!-- testtestng.ParameterEX -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+  <test thread-count="5" name="firefoxtest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testtestng.ParameterEX">
+        <methods>
+          <include name="verifyURL"/>
+          <include name="openBrowser"/>
+          <include name="createPOMObject"/>
+          <include name="openHomePage"/>
+        </methods>
+      </class> <!-- testtestng.ParameterEX -->
+    </classes>
+  </test> <!-- firefoxtest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
