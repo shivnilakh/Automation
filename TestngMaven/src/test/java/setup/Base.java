@@ -10,7 +10,7 @@ public class Base {
 	
 	public WebDriver openChromeBrowser()
 	{
-		System.setProperty("webdriver.chrome.driver","D:\\Prasad\\Automation\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","D:\\Prasad\\Automation\\chromedriver_win\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		return driver;
 	}
