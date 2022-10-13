@@ -7,6 +7,8 @@ import org.testng.annotations.Test;
 
 public class AnnotationsClass {
 	
+	//pull demo
+	
 	@BeforeClass
 	public void beforeClass()
 	{
